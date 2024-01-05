@@ -1,0 +1,123 @@
+*{
+  background-color: #3B4664;  
+}
+
+
+.container {
+    position: absolute;
+    width: 58px;
+    height: 20px;
+    top: 94px;
+    left: 466px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.screen{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 441px;
+    height: 85px;
+    top: 133px;
+    left: 466px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #181F32;
+    font-size: 55px;
+    font-family: Segoe UI;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.buttons{
+    position: absolute;
+    width: 453px;
+    height: 443px;
+    top: 234px;
+    left: 466px;
+    gap: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #252D44;
+    border-radius: 18px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    top: 48px;
+    left: 35px;
+    gap: 35px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #252D44;
+}
+
+.c7{
+    width: 100px;
+    height: 44px;
+    border-radius: 12px;
+    background: #EAE3DB;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3B4664;
+}
+
+#DEL{
+    width: 100px;
+    height: 44px;
+    border-radius: 12px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #647299;
+}
+
+#RESET{
+    width: 222.44px;
+    height: 60px;
+    border-radius: 11.52px;
+    background: #647299;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#Equals{
+    width: 222.44px;
+    height: 60px;
+    left: 243.56px;
+    border-radius: 11.52px;
+    background: #D13F30;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
